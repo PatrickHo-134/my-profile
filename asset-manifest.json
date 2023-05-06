@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.93160ab2.css",
+    "main.js": "/my-portfolio/static/js/main.587c3c2a.js",
+    "static/js/787.128fc6e9.chunk.js": "/my-portfolio/static/js/787.128fc6e9.chunk.js",
+    "static/media/markus-spiske-unsplash-med.jpg": "/my-portfolio/static/media/markus-spiske-unsplash-med.ff180b2b2c45697e2e3d.jpg",
+    "static/media/boxicons.svg": "/my-portfolio/static/media/boxicons.f933d3d316bea9fa167f.svg",
+    "static/media/icofont.woff": "/my-portfolio/static/media/icofont.dad3accba068281878f1.woff",
+    "static/media/icofont.woff2": "/my-portfolio/static/media/icofont.9c33516aab48c61e3081.woff2",
+    "static/media/boxicons.eot": "/my-portfolio/static/media/boxicons.691d0bb604ad736b6554.eot",
+    "static/media/boxicons.woff": "/my-portfolio/static/media/boxicons.83ea8051293b9698c379.woff",
+    "static/media/boxicons.ttf": "/my-portfolio/static/media/boxicons.3ba326c0f3cbdc18538d.ttf",
+    "static/media/boxicons.woff2": "/my-portfolio/static/media/boxicons.4d841f88f087a9fafd78.woff2",
+    "index.html": "/my-portfolio/index.html",
+    "main.93160ab2.css.map": "/my-portfolio/static/css/main.93160ab2.css.map",
+    "main.587c3c2a.js.map": "/my-portfolio/static/js/main.587c3c2a.js.map",
+    "787.128fc6e9.chunk.js.map": "/my-portfolio/static/js/787.128fc6e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.93160ab2.css",
+    "static/js/main.587c3c2a.js"
+  ]
+}
