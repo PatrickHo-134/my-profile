@@ -6,6 +6,8 @@ import "./assets/vendor/venobox/venobox.css";
 import "./assets/vendor/owl.carousel/assets/owl.carousel.min.css";
 import "./assets/vendor/aos/aos.css";
 
+import { HashRouter as Router } from "react-router-dom";
+import Navbar from "./components/navBar";
 import About from "./components/about";
 import Skills from "./components/skills";
 import Hero from "./components/hero";
@@ -14,15 +16,17 @@ import Blogs from "./components/blogs";
 
 function App() {
   return (
-    <div>
-      <Hero></Hero>
+    <Router>
+      <Navbar/>
+      <Hero/>
+
       <div id="main">
-        <About></About>
-        <Skills></Skills>
-        <Resume></Resume>
-        <Blogs></Blogs>
+        <About />
+        <Skills />
+        <Resume />
+        <Blogs />
       </div>
-    </div>
+    </Router>
   );
 }
 

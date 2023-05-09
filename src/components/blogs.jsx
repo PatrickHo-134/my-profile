@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import "../assets/vendor/bootstrap/css/bootstrap.min.css";
 
 function BlogPost({ blogTitle, date, blogURI }) {
   return (
@@ -7,7 +6,7 @@ function BlogPost({ blogTitle, date, blogURI }) {
       <div className="col-sm-9">
         <h4 className="title">
           <i className="icofont-unique-idea mr-2" />
-          <a href={process.env.PUBLIC_URL + blogURI}>{blogTitle}</a>
+          <a href={blogURI}>{blogTitle}</a>
         </h4>
       </div>
       <div className="col-sm-3">{date}</div>
