@@ -29,7 +29,7 @@ export default class Resume extends Component {
                 <ul>
                   <li>Kingsgrove, NSW 2208, Australia</li>
                   <li>(+61) 410 978 468</li>
-                  <li>phat.hovinh.13@gmail.com</li>
+                  <li>patrickho1304@gmail.com</li>
                 </ul>
               </div>
               <h3 className="resume-title">Education</h3>

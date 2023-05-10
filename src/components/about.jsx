@@ -39,14 +39,14 @@ export default class About extends Component {
           </div>
 
           <div className="row">
-            <div className="col-lg-4" data-aos="fade-right">
+            <div className="col-lg-4">
               <img
-                src="../assets/img/myProfile.JPG"
+                src={require("../assets/img/myProfile.JPG")}
                 className="img-fluid"
                 alt=""
               />
             </div>
-            <div className="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+            <div className="col-lg-8 pt-4 pt-lg-0 content">
               <h3>Data Scientist &amp; Full Stack Developer</h3>
               <div className="row">
                 <div className="col-lg-6">
@@ -61,15 +61,9 @@ export default class About extends Component {
                     </li>
                     <li>
                       <i className="icofont-rounded-right"></i>
-                      <strong>Email:</strong> phat.hovinh.13@gmail.com
+                      <strong>Email:</strong> patrickho1304@gmail.com
                     </li>
-                    <li>
-                      <i className="icofont-rounded-right"></i>
-                      <strong>Other Website:</strong>
-                      <a href="https://patrickhoo.wixsite.com/diveindatascience">
-                        My Data Science Blog
-                      </a>
-                    </li>
+
                   </ul>
                 </div>
 
@@ -77,11 +71,14 @@ export default class About extends Component {
                   <ul>
                     <li>
                       <i className="icofont-rounded-right"></i>
-                      <strong>Age:</strong> Well!!! I'm pretty young atm
+                      <strong>Degree:</strong> Master of Data Science
                     </li>
                     <li>
                       <i className="icofont-rounded-right"></i>
-                      <strong>Degree:</strong> Master of Data Science
+                      <strong>Other Website:</strong>
+                      <a href="https://patrickhoo.wixsite.com/diveindatascience">
+                        My Data Science Blog
+                      </a>
                     </li>
                     <li>
                       <i className="icofont-rounded-right"></i>

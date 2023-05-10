@@ -7,7 +7,7 @@ export default class Navbar extends Component {
         <div className="d-flex flex-column">
           <div className="profile">
             <img
-              src="../assets/img/myProfile2.JPG"
+              src={require("../assets/img/myProfile2.JPG")}
               alt=""
               className="img-fluid rounded-circle"
             />

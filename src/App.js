@@ -6,27 +6,25 @@ import "./assets/vendor/venobox/venobox.css";
 import "./assets/vendor/owl.carousel/assets/owl.carousel.min.css";
 import "./assets/vendor/aos/aos.css";
 
-import { HashRouter as Router } from "react-router-dom";
-import Navbar from "./components/navBar";
-import About from "./components/about";
-import Skills from "./components/skills";
-import Hero from "./components/hero";
-import Resume from "./components/resume";
-import Blogs from "./components/blogs";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import BootstrapQuestions from "./components/blogs/bootstrapQuestions";
+import Main from "./components/main";
 
 function App() {
   return (
-    <Router>
-      <Navbar/>
-      <Hero/>
+    <BrowserRouter>
+      <Routes>
+        <Route
+          path="/common_questions_in_bootstrap"
+          element={<BootstrapQuestions />}
+        />
+        <Route
+          path="/my-profile"
+          element={<Main />}
+        />
+      </Routes>
 
-      <div id="main">
-        <About />
-        <Skills />
-        <Resume />
-        <Blogs />
-      </div>
-    </Router>
+    </BrowserRouter>
   );
 }
 
