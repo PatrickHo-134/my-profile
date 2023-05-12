@@ -5,6 +5,7 @@ import Skills from "./skills";
 import Hero from "./hero";
 import Resume from "./resume";
 import Blogs from "./blogs";
+import Contact from "./contact";
 
 export default class Main extends Component {
   render() {
@@ -18,6 +19,7 @@ export default class Main extends Component {
           <Skills />
           <Resume />
           <Blogs />
+          <Contact />
         </div>
       </div>
     );
