@@ -6,6 +6,7 @@ import Hero from "./hero";
 import Resume from "./resume";
 import Blogs from "./blogs";
 import Contact from "./contact";
+import Hobbies from "./hobbies";
 
 export default class Main extends Component {
   render() {
@@ -19,6 +20,7 @@ export default class Main extends Component {
           <Skills />
           <Resume />
           <Blogs />
+          <Hobbies />
           <Contact />
         </div>
       </div>
