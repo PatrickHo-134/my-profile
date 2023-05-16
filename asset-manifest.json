@@ -1,23 +1,33 @@
 {
   "files": {
-    "main.css": "/my-profile/static/css/main.9cb9f49a.css",
-    "main.js": "/my-profile/static/js/main.23de8395.js",
+    "main.css": "/my-profile/static/css/main.ae5306f7.css",
+    "main.js": "/my-profile/static/js/main.3eaffa1a.js",
     "static/js/787.128fc6e9.chunk.js": "/my-profile/static/js/787.128fc6e9.chunk.js",
     "static/media/markus-spiske-unsplash-med.jpg": "/my-profile/static/media/markus-spiske-unsplash-med.ff180b2b2c45697e2e3d.jpg",
+    "static/media/TheWebDeveloperBootcamp-UdemyCertificate.jpg": "/my-profile/static/media/TheWebDeveloperBootcamp-UdemyCertificate.dbbff8eba9f6717ea338.jpg",
     "static/media/boxicons.svg": "/my-profile/static/media/boxicons.f933d3d316bea9fa167f.svg",
     "static/media/icofont.woff": "/my-profile/static/media/icofont.dad3accba068281878f1.woff",
+    "static/media/myProfile.JPG": "/my-profile/static/media/myProfile.08ec8b8fa30ba832606e.JPG",
+    "static/media/myProfile2.JPG": "/my-profile/static/media/myProfile2.3e1c55275eaaa8f5c0fc.JPG",
     "static/media/icofont.woff2": "/my-profile/static/media/icofont.9c33516aab48c61e3081.woff2",
+    "static/media/Convolutional Neural Networks - Coursera.jpg": "/my-profile/static/media/Convolutional Neural Networks - Coursera.080539fa06b82af9e981.jpg",
+    "static/media/Sequence Models - Coursera.jpg": "/my-profile/static/media/Sequence Models - Coursera.89d97d72fb5a25a31332.jpg",
+    "static/media/deeplearning-in-python-datacamp.jpg": "/my-profile/static/media/deeplearning-in-python-datacamp.1588c03931b1892e5c22.jpg",
+    "static/media/Financial-trading-in-r.jpg": "/my-profile/static/media/Financial-trading-in-r.bdddd11a805a20ae9e49.jpg",
     "static/media/boxicons.eot": "/my-profile/static/media/boxicons.691d0bb604ad736b6554.eot",
     "static/media/boxicons.woff": "/my-profile/static/media/boxicons.83ea8051293b9698c379.woff",
     "static/media/boxicons.ttf": "/my-profile/static/media/boxicons.3ba326c0f3cbdc18538d.ttf",
+    "static/media/Google Cloud Platform Fundamentals Core Infrastructure - Coursera.jpg": "/my-profile/static/media/Google Cloud Platform Fundamentals Core Infrastructure - Coursera.c568797652899b76ef4c.jpg",
+    "static/media/CertificateOfCompletion_React Building pwas.jpg": "/my-profile/static/media/CertificateOfCompletion_React Building pwas.f03032bdb3e82317ffaa.jpg",
+    "static/media/CertificateOfCompletion_Node Js Security.jpg": "/my-profile/static/media/CertificateOfCompletion_Node Js Security.55f06827fd20bbb16773.jpg",
     "static/media/boxicons.woff2": "/my-profile/static/media/boxicons.4d841f88f087a9fafd78.woff2",
     "index.html": "/my-profile/index.html",
-    "main.9cb9f49a.css.map": "/my-profile/static/css/main.9cb9f49a.css.map",
-    "main.23de8395.js.map": "/my-profile/static/js/main.23de8395.js.map",
+    "main.ae5306f7.css.map": "/my-profile/static/css/main.ae5306f7.css.map",
+    "main.3eaffa1a.js.map": "/my-profile/static/js/main.3eaffa1a.js.map",
     "787.128fc6e9.chunk.js.map": "/my-profile/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9cb9f49a.css",
-    "static/js/main.23de8395.js"
+    "static/css/main.ae5306f7.css",
+    "static/js/main.3eaffa1a.js"
   ]
 }
