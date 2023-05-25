@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Navbar from "./navBar";
+import NavBar from "./navBar";
 import About from "./about";
 import Skills from "./skills";
 import Hero from "./hero";
@@ -13,7 +13,7 @@ export default class Main extends Component {
   render() {
     return (
       <div>
-        <Navbar />
+        <NavBar />
         <Hero />
 
         <div id="main">

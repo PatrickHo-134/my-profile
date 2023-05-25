@@ -1,71 +1,64 @@
-import { Component } from "react";
+import Container from "react-bootstrap/Container";
+import {
+  BiUser,
+  BiHome,
+  BiFileBlank,
+  BiBriefcase,
+  BiCommentEdit,
+  BiIdCard,
+  BiMenu,
+} from "react-icons/bi";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
 
-export default class Navbar extends Component {
-  render() {
-    return (
-      <header id="header">
-        <div className="d-flex flex-column">
-          <div className="profile">
-            <img
-              src={require("../assets/img/myProfile2.JPG")}
-              alt=""
-              className="img-fluid rounded-circle"
-            />
-            <h1 className="text-light">
-              <a href="index.html">Phat Vinh Ho</a>
-            </h1>
-            <h1 className="text-light">
-              <a>(Patrick)</a>
-            </h1>
-            <div className="social-links mt-3 text-center">
-              <a
-                href="https://www.linkedin.com/in/phat-vinh-ho-1304/"
-                className="linkedin"
-              >
-                <i className="bx bxl-linkedin" />
-              </a>
-            </div>
-          </div>
-          <nav className="nav-menu">
-            <ul>
-              <li className="active">
-                <a href="#hero">
-                  <i className="bx bx-home" /> <span>Home</span>
-                </a>
-              </li>
-              <li>
-                <a href="#about">
-                  <i className="bx bx-user" /> <span>About</span>
-                </a>
-              </li>
-              <li>
-                <a href="#resume">
-                  <i className="bx bx-file-blank" /> <span>Resume</span>
-                </a>
-              </li>
-              <li>
-                <a href="#portfolio">
-                  <i className="bx bx-book-content" /> Portfolio
-                </a>
-              </li>
-              <li>
-                <a href="#blogs">
-                  <i className="bx bx-server" /> Blogs
-                </a>
-              </li>
-              <li>
-                <a href="#contact">
-                  <i className="bx bx-envelope" /> Contact
-                </a>
-              </li>
-            </ul>
-          </nav>
-          {/* .nav-menu */}
-          <button type="button" className="mobile-nav-toggle d-xl-none">
-            <i className="icofont-navigation-menu" />
-          </button>
-        </div>
-      </header>
-    );
-  }
+function NavBar() {
+  return (
+    <Navbar collapseOnSelect className="nav-menu fixed-top" expand="lg">
+      <Container fluid>
+        <Navbar.Toggle
+          id="navbar-toggler"
+          aria-controls="navbarScroll"
+          data-target="navbarScroll"
+        >
+          <BiMenu />
+        </Navbar.Toggle>
+
+        <Navbar.Collapse id="navbarScroll">
+          <Nav className="me-auto my-2 my-lg-0" navbarScroll>
+            <Nav.Link id="nav-link" href="#hero">
+              <BiHome id="nav-link-icon" />
+              <span>Home</span>
+            </Nav.Link>
+
+            <Nav.Link id="nav-link" href="#about">
+              <BiUser id="nav-link-icon" />
+              <span>About</span>
+            </Nav.Link>
+
+            <Nav.Link id="nav-link" href="#resume">
+              <BiFileBlank id="nav-link-icon" />
+              <span>Resume</span>
+            </Nav.Link>
+
+            <Nav.Link id="nav-link" href="#portfolio">
+              <BiBriefcase id="nav-link-icon" />
+              <span>Portfolio</span>
+            </Nav.Link>
+
+            <Nav.Link id="nav-link" href="#blogs">
+              <BiCommentEdit id="nav-link-icon" />
+              <span>Blogs</span>
+            </Nav.Link>
+
+            <Nav.Link id="nav-link" href="#contact">
+              <BiIdCard id="nav-link-icon" />
+              <span>Contact</span>
+            </Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
+  );
 }
+
+export default NavBar;

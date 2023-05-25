@@ -142,7 +142,7 @@ h6 {
 --------------------------------------------------------------*/
 /* Desktop Navigation */
 .nav-menu {
-  padding-top: 30px;
+  background-color: #040b14;
 }
 
 .nav-menu * {
@@ -182,6 +182,40 @@ h6 {
 .nav-menu a:hover i,
 .nav-menu .active > a i,
 .nav-menu li:hover > a i {
+  color: #149ddd;
+}
+
+.nav-menu #nav-link {
+  font-size: 1.25rem;
+  color: #6f7180;
+  margin-left: 0.5rem;
+}
+
+.nav-menu a:hover,
+.nav-menu #nav-link.active,
+.nav-menu #nav-link:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-menu #nav-link-icon {
+  color: #6f7180;
+  margin-right: 8px;
+}
+
+.nav-menu a:hover #nav-link-icon,
+.nav-menu #nav-link.active #nav-link-icon,
+.nav-menu #nav-link-icon:hover {
+  color: #149ddd;
+}
+
+.nav-menu #navbar-toggler {
+  padding: 0.25rem 0.75rem;
+  font-size: 2rem;
+  line-height: 1;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
   color: #149ddd;
 }
 
@@ -235,7 +269,7 @@ h6 {
   top: 0;
   left: 0;
   right: 0;
-  z-index: 1;
+  z-index: -1;
 }
 
 #hero .hero-container {
