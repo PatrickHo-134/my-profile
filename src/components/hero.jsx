@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "../assets/vendor/aos/aos.css";
+import Typist from "react-typist-component";
 
 export default class hero extends Component {
   render() {
@@ -8,16 +8,18 @@ export default class hero extends Component {
         id="hero"
         className="d-flex flex-column justify-content-center align-items-center"
       >
-        <div
-          className="hero-container" // data-aos="fade-in"
-        >
-          <h1>Phat Vinh Ho</h1>
+        <div className="hero-container">
+          <h1>Hi! I'm Patrick</h1>
           <p>
-            I'm a
-            <span
-              className="typed"
-              data-typed-items="Developer, Data Scientist"
-            />
+            I'm a{" "}
+            <Typist
+              typingDelay={100}
+              cursor={<span className="cursor">|</span>}
+              loop={true}
+              finishDelay={3000}
+            >
+              <span className="typed">Full-stack Software Developer</span>
+            </Typist>
           </p>
         </div>
       </section>

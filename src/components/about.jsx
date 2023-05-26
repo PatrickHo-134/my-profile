@@ -47,7 +47,7 @@ export default class About extends Component {
               />
             </div>
             <div className="col-lg-8 pt-4 pt-lg-0 content">
-              <h3>Data Scientist &amp; Full Stack Developer</h3>
+              <h3>Full Stack Developer / Data Scientist</h3>
               <div className="row">
                 <div className="col-lg-6">
                   <ul>
@@ -79,10 +79,6 @@ export default class About extends Component {
                       <a href="https://patrickhoo.wixsite.com/diveindatascience">
                         My Data Science Blog
                       </a>
-                    </li>
-                    <li>
-                      <i className="icofont-rounded-right"></i>
-                      <strong>Freelance:</strong> Available
                     </li>
                   </ul>
                 </div>
