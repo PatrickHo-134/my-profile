@@ -634,6 +634,16 @@ section {
   bottom: 0;
 }
 
+.portfolio .project-name {
+  color: #173b6c;
+  margin-right: 0.25rem;
+  font-weight: bold;
+}
+
+.portfolio .project-item {
+  margin-bottom: 0.5rem;
+}
+
 /*--------------------------------------------------------------
 # Blogs
 --------------------------------------------------------------*/

@@ -8,6 +8,7 @@ import Blogs from "./blogs";
 import Certificates from "./certificates";
 import Contact from "./contact";
 import Hobbies from "./hobbies";
+import Projects from "./projects";
 
 export default class Main extends Component {
   render() {
@@ -20,6 +21,7 @@ export default class Main extends Component {
           <About />
           <Skills />
           <Resume />
+          <Projects />
           <Blogs />
           <Certificates />
           <Hobbies />
