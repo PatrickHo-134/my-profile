@@ -1,6 +1,6 @@
 import { Component } from "react";
 
-export default class BootstrapQuestions extends Component {
+export default class Blog20220623 extends Component {
   render() {
     return (
       <div id="preview">
