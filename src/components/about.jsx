@@ -47,7 +47,7 @@ export default class About extends Component {
               />
             </div>
             <div className="col-lg-8 pt-4 pt-lg-0 content">
-              <h3>Full Stack Developer / Data Scientist</h3>
+              <h3>Full Stack Developer</h3>
               <div className="row">
                 <div className="col-lg-6">
                   <ul>
@@ -59,11 +59,11 @@ export default class About extends Component {
                       <i className="icofont-rounded-right"></i>
                       <strong>City:</strong> Sydney, Australia
                     </li>
+
                     <li>
                       <i className="icofont-rounded-right"></i>
                       <strong>Email:</strong> patrickho1304@gmail.com
                     </li>
-
                   </ul>
                 </div>
 
@@ -73,9 +73,18 @@ export default class About extends Component {
                       <i className="icofont-rounded-right"></i>
                       <strong>Degree:</strong> Master of Data Science
                     </li>
+
                     <li>
                       <i className="icofont-rounded-right"></i>
-                      <strong>Other Website:</strong>
+                      <strong>LinkedIn:</strong>{" "}
+                      <a href="https://www.linkedin.com/in/phat-vinh-ho-1304/">
+                        Phat Vinh Ho
+                      </a>
+                    </li>
+
+                    <li>
+                      <i className="icofont-rounded-right"></i>
+                      <strong>Other Website:</strong>{" "}
                       <a href="https://patrickhoo.wixsite.com/diveindatascience">
                         My Data Science Blog
                       </a>
