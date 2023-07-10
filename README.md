@@ -1,70 +1,28 @@
-# Getting Started with Create React App
+# Vinh Phat Ho (Patrick) - Profile
+This is now my main profile which is built using React.js. Please follow this [link](https://patrickho-134.github.io/my-profile/) to access my profile page
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The original profile was built using an HTML template, then I converted it to a React project. The repo of original profile can be found [here](https://github.com/PatrickHo-134/portfolio) and the original [site](https://patrickho-134.github.io/portfolio/) is now abandonned.
 
-## Available Scripts
+These are 2 articles that I use to convert my profile from an HTML template to a React.js project:
+- [How to create your portfolio website using React.js](https://www.freecodecamp.org/news/portfolio-app-using-react-618814e35843/) - This is the main source that I use for this project.
+- [Converting Templates to React Project](https://medium.com/tech-that-works/converting-templates-to-react-project-b737b0456fb8) - Additional resource which provides more details and coincidently it uses the same HTML template the I used for my original profile.
 
-In the project directory, you can run:
+## A brief description of the steps I did in this project:
+### 1. Setting up React-app
+- Install `npm` and `create-react-app` (if they are not installed yet).
+- Start a new React project by running `npm create-react-app my-profile`
+- Copy all resources including images, HTML, and CSS files from old directory to the new project.
+- Start the React app on `localhost`. The app should run on `https://localhost:3000`
 
-### `npm start`
+### 2. Breaking-down the HTML page into React components
+- Convert all sections of the HTML template into React components including NavBar, Hero, About, Skills, Resume, Blogs, Certificates, Hobbies and Contact.
+- Combine all those components to make the profile page
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 3. Deploy React-app to Github pages
+- Install `gh-pages` package by running `npm install gh-pages`
+- Make changes to `package.json` file.
+     - Add the `homepage` field — value will be in the following format — `https://{github_id}.github.io/{github_repo}`
+     - Add predeploy and deploy fields under `scripts`
+- In a terminal, run `npm run deploy` and the app will be deployed to Github.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
