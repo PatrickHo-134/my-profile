@@ -37,7 +37,13 @@ export default class Blogs extends Component {
           </div>
 
           <BlogPost
-            blogTitle="How to create a dynamically resizable textarea"
+            blogTitle="How I converted my profile from an HTML template to React.js?"
+            date="12/07/2023"
+            blogURL="/blog_20230712"
+          />
+
+          <BlogPost
+            blogTitle="How to create a dynamically resizable textarea?"
             date="15/03/2023"
             blogURL="/blog_20230315"
           />

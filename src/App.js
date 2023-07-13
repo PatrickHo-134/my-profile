@@ -6,6 +6,7 @@ import "./assets/vendor/venobox/venobox.css";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Main from "./components/main";
+import Blog20230712 from "./components/blogs/convertHtmlTemplateToReact";
 import Blog20230315 from "./components/blogs/resizableTextarea";
 import Blog20220623 from "./components/blogs/bootstrapQuestions";
 import Blog20220218 from "./components/blogs/mistakeWithSelectQuery";
@@ -15,6 +16,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
+        <Route path="/blog_20230712" element={<Blog20230712 />} />
         <Route path="/blog_20230315" element={<Blog20230315 />} />
 
         <Route path="/blog_20220623" element={<Blog20220623 />} />
