@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-profile/static/css/main.270a852a.css",
-    "main.js": "/my-profile/static/js/main.f8cdeafe.js",
+    "main.js": "/my-profile/static/js/main.81479413.js",
     "static/js/787.128fc6e9.chunk.js": "/my-profile/static/js/787.128fc6e9.chunk.js",
     "static/media/markus-spiske-unsplash-med.jpg": "/my-profile/static/media/markus-spiske-unsplash-med.ff180b2b2c45697e2e3d.jpg",
     "static/media/TheWebDeveloperBootcamp-UdemyCertificate.jpg": "/my-profile/static/media/TheWebDeveloperBootcamp-UdemyCertificate.dbbff8eba9f6717ea338.jpg",
@@ -22,11 +22,11 @@
     "static/media/boxicons.woff2": "/my-profile/static/media/boxicons.4d841f88f087a9fafd78.woff2",
     "index.html": "/my-profile/index.html",
     "main.270a852a.css.map": "/my-profile/static/css/main.270a852a.css.map",
-    "main.f8cdeafe.js.map": "/my-profile/static/js/main.f8cdeafe.js.map",
+    "main.81479413.js.map": "/my-profile/static/js/main.81479413.js.map",
     "787.128fc6e9.chunk.js.map": "/my-profile/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.270a852a.css",
-    "static/js/main.f8cdeafe.js"
+    "static/js/main.81479413.js"
   ]
 }
