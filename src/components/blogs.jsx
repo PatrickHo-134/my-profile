@@ -37,6 +37,12 @@ export default class Blogs extends Component {
           </div>
 
           <BlogPost
+            blogTitle="Avoid this rookie mistake when working with database indexing!"
+            date="19/07/2023"
+            blogURL="/blog_20230719"
+          />
+
+          <BlogPost
             blogTitle="How I converted my profile from an HTML template to React.js?"
             date="12/07/2023"
             blogURL="/blog_20230712"

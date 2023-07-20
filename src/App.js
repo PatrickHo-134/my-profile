@@ -11,18 +11,17 @@ import Blog20230315 from "./components/blogs/resizableTextarea";
 import Blog20220623 from "./components/blogs/bootstrapQuestions";
 import Blog20220218 from "./components/blogs/mistakeWithSelectQuery";
 import Blog20220130 from "./components/blogs/dataValidation";
+import Blog20230719 from "./components/blogs/issueWithDatabaseUniqueIndex";
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
+        <Route path="/blog_20230719" element={<Blog20230719 />} />
         <Route path="/blog_20230712" element={<Blog20230712 />} />
         <Route path="/blog_20230315" element={<Blog20230315 />} />
-
         <Route path="/blog_20220623" element={<Blog20220623 />} />
-
         <Route path="/blog_20220218" element={<Blog20220218 />} />
-
         <Route path="/blog_20220130" element={<Blog20220130 />} />
 
         <Route path="/my-profile" element={<Main />} />
