@@ -14,6 +14,19 @@ export default class Projects extends Component {
             <li className="project-item">
               <a
                 className="project-name"
+                href="https://github.com/PatrickHo-134/learning_notes_app"
+              >
+                Learning Timeline:
+              </a>
+              A full-stack Web App developed using Python, Django, React.js, and
+              Redux. It enables users to create, organize, and archive learning
+              notes, promoting effective self-paced learning and personal
+              development.
+            </li>
+
+            <li className="project-item">
+              <a
+                className="project-name"
                 href="https://github.com/PatrickHo-134/1problem-3languages"
               >
                 1 Problem - 3 languages (Coding Challenge):
