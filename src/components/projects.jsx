@@ -14,9 +14,22 @@ export default class Projects extends Component {
             <li className="project-item">
               <a
                 className="project-name"
+                href="https://patrickho-134.github.io/visualisation-of-lifetime/"
+              >
+                Life Calendar (Web Development):
+              </a>
+              A re-frame application designed to visualise lifetime of a person or a journey.
+              By visualising time in a number of weeks, months or years,
+              this encourages regular reflection, sets goals,
+              and reminds you to be proud of yourself for what you’ve accomplished in life.
+            </li>
+
+            <li className="project-item">
+              <a
+                className="project-name"
                 href="https://github.com/PatrickHo-134/learning_notes_app"
               >
-                Learning Timeline:
+                Learning Timeline (Web Development):
               </a>
               A full-stack Web App developed using Python, Django, React.js, and
               Redux. It enables users to create, organize, and archive learning
@@ -42,7 +55,7 @@ export default class Projects extends Component {
             <li className="project-item">
               <a
                 className="project-name"
-                href="https://github.com/PatrickHo-134/spelling-bee-cljs-reagent"
+                href="https://patrickho-134.github.io/spelling-bee-cljs-reagent/"
               >
                 New York Times' spelling bee (Web Development):
               </a>
