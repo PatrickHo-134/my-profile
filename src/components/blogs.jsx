@@ -39,7 +39,7 @@ export default class Blogs extends Component {
           <BlogPost
             blogTitle="[Clojure series] Level Up Your APIs: Using Spec with Compojure.api"
             date="29/03/2025"
-            blogURL="https://github.com/PatrickHo-134/my-profile/blob/main/src/blogs/difference_between_trigger_and_check_contraint.md"
+            blogURL="https://github.com/PatrickHo-134/my-profile/blob/main/src/components/blogs/define_specs_for_api_endpoints.md"
           />
 
           <BlogPost
