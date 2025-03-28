@@ -37,6 +37,12 @@ export default class Blogs extends Component {
           </div>
 
           <BlogPost
+            blogTitle="[Clojure series] Level Up Your APIs: Using Spec with Compojure.api"
+            date="29/03/2025"
+            blogURL=""
+          />
+
+          <BlogPost
             blogTitle="Avoid this rookie mistake when working with database indexing!"
             date="19/07/2023"
             blogURL="/blog_20230719"
