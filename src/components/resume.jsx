@@ -17,7 +17,7 @@ export default class Resume extends Component {
                 <h4>Phat Vinh Ho (Patrick)</h4>
                 <p>
                   <em>
-                    Junior Developer with proven experience in start-up
+                    Fullstack Developer with proven experience in start-up
                     environment and a passion for developing data-driven
                     products. Experienced in functional and object-oriented
                     programming with abilities to implement full-stack web
@@ -27,7 +27,7 @@ export default class Resume extends Component {
                   </em>
                 </p>
                 <ul>
-                  <li>Kingsgrove, NSW 2208, Australia</li>
+                  <li>Bexley North, NSW 2207, Australia</li>
                   <li>(+61) 410 978 468</li>
                   <li>patrickho1304@gmail.com</li>
                 </ul>

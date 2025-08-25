@@ -31,7 +31,7 @@ export default class About extends Component {
             </ul>
             <br />
             <p>
-              As a Junior Developer, I try to learn and gain as much exposure as
+              As a Fullstack Developer, I try to learn and gain as much exposure as
               possible to all aspects of software engineering. In my free time,
               I also write blogs about things that I have learned and done. Head
               toward my portfolio to see what I am working on!
