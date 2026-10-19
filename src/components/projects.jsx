@@ -14,14 +14,26 @@ export default class Projects extends Component {
             <li className="project-item">
               <a
                 className="project-name"
+                href="https://youtubesummary.patrickho.dev/"
+              >
+                Youtube Summary (Web App):
+              </a>
+              An end-to-end serverless web application that extracts YouTube
+              video transcripts, generates structured summaries using OpenAI,
+              and optimizes performance and costs through asynchronous
+              background processing and global caching.
+            </li>
+            <li className="project-item">
+              <a
+                className="project-name"
                 href="https://patrickho-134.github.io/visualisation-of-lifetime/"
               >
                 Life Calendar (Web Development):
               </a>
-              A re-frame application designed to visualise lifetime of a person or a journey.
-              By visualising time in a number of weeks, months or years,
-              this encourages regular reflection, sets goals,
-              and reminds you to be proud of yourself for what you’ve accomplished in life.
+              A re-frame application designed to visualise lifetime of a person
+              or a journey. By visualising time in a number of weeks, months or
+              years, this encourages regular reflection, sets goals, and reminds
+              you to be proud of yourself for what you’ve accomplished in life.
             </li>
 
             <li className="project-item">
