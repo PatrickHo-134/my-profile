@@ -67,31 +67,76 @@ export default class Resume extends Component {
             <div className="col-lg-6">
               <h3 className="resume-title">Professional Experience</h3>
               <div className="resume-item">
-                <h4>Software Developer</h4>
-                <h5>June 2020 - Present</h5>
+                <h4>Software Engineer</h4>
+                <h5>February 2025 - Present</h5>
                 <p>
                   <em>
-                    <strong>Gojee App</strong>, Sydney, New South Wales{" "}
+                    <strong>Tata Consultancy Services</strong>, Sydney, New
+                    South Wales{" "}
                   </em>
                 </p>
                 <ul>
                   <li>
-                    Worked in a team of 5 people to build a scalable single-page
-                    web app that serves internal and external users.
+                    Developed and supported scalable serverless solutions
+                    leveraging GCP Cloud Run, processing high- volume online
+                    orders for Australia’s largest supermarket chain within a
+                    robust microservices architecture.
                   </li>
                   <li>
-                    Maintained a backend backed by a PostgreSQL database by
-                    analysing and ensuring performance of queries.
+                    Designed and maintained RESTful APIs integrated through
+                    Apigee API Management, ensuring secure communication between
+                    internal and external services.
                   </li>
                   <li>
-                    Developed APIs using Clojure to handle concurrent requests
-                    from a Clojurescript front-end.
+                    Utilised GCP Cloud Monitoring to proactively identify,
+                    troubleshoot, and resolve application performance and
+                    reliability issues in production environments.
                   </li>
-                  <li>Built UI components with Clojurescript and React.js</li>
-                  <li>Reviewed code and tested software for bugs.</li>
                   <li>
-                    Deployed the application with AWS services including S3,
-                    RDS, Elastic Beanstalk and EC2.
+                    Developed backend features across a complex multi-language
+                    codebase (Go, Clojure, Python, Rust) and maintained
+                    automated data pipelines utilizing data build tool (dbt).
+                  </li>
+                  <li>
+                    Championed software engineering best practices by actively
+                    participating in code reviews, technical decision making,
+                    and authoring technical documentation to deliver secure,
+                    maintainable outcomes.
+                  </li>
+                </ul>
+              </div>
+              <div className="resume-item">
+                <h4>Software Developer</h4>
+                <h5>June 2020 - February 2025</h5>
+                <p>
+                  <em>
+                    <strong>Gojee</strong>, Sydney, New South Wales{" "}
+                  </em>
+                </p>
+                <ul>
+                  <li>
+                    Developed and maintained RESTful APIs and scalable
+                    single-page web applications for 30+ small and medium-sized
+                    businesses, ensuring robust integration between frontend
+                    components and backend services.
+                  </li>
+                  <li>
+                    Implemented and managed CI/CD deployment pipelines using
+                    Bitbucket to automate releases and support secure software
+                    delivery.
+                  </li>
+                  <li>
+                    Managed application deployments on AWS S3, RDS, EC2, and
+                    Elastic Beanstalk.
+                  </li>
+                  <li>
+                    Collaborated effectively within a 5-person Agile delivery
+                    team to design, build, document, review, and release
+                    production-ready software solutions.
+                  </li>
+                  <li>
+                    Designed and optimized relational data models and access
+                    patterns using PostgreSQL.
                   </li>
                 </ul>
               </div>
